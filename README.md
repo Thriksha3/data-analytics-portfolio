@@ -1,8 +1,8 @@
-# 📊 Data Analysis & AI Portfolio — Thriksha Giriraju
+# Data Analysis & AI Portfolio
 
 Data Analyst with 4+ years of experience in exploratory data analysis, statistical testing, predictive modeling, and AWS data infrastructure. This repository showcases hands-on projects demonstrating analytical depth, Python proficiency, and AI/ML capabilities.
 
-## 📁 Projects
+## Projects
 
 | # | Project | Skills Demonstrated |
 |---|---------|-------------------|
@@ -13,7 +13,7 @@ Data Analyst with 4+ years of experience in exploratory data analysis, statistic
 | 05 | [SQL Analytics Toolkit](#05--sql-analytics-toolkit) | CTEs, window functions, KPI queries, SLA reporting, ad-hoc analysis |
 | 06 | [AWS Serverless Data Pipeline](#06--aws-serverless-data-pipeline) | AWS Glue, Lambda, S3, Redshift, ETL automation |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python**: pandas, NumPy, SciPy, Matplotlib, Seaborn, scikit-learn, XGBoost, statsmodels, NLTK
 - **SQL**: PostgreSQL, Redshift, complex joins, CTEs, window functions
@@ -25,7 +25,7 @@ Data Analyst with 4+ years of experience in exploratory data analysis, statistic
 
 ## 01 — EDA & Statistical Analysis Toolkit
 
-📂 [`01_eda_statistical_analysis/eda_analysis.py`](./01_eda_statistical_analysis/eda_analysis.py)
+[`01_eda_statistical_analysis/eda_analysis.py`](./01_eda_statistical_analysis/eda_analysis.py)
 
 Reusable Python toolkit for deep-dive exploratory data analysis on operational datasets.
 
@@ -80,7 +80,7 @@ outliers = detect_outliers(df, method="iqr")
 
 ## 02 — Automated Data Cleaning & Validation Pipeline
 
-📂 [`02_data_cleaning_pipeline/data_cleaning_pipeline.py`](./02_data_cleaning_pipeline/data_cleaning_pipeline.py)
+[`02_data_cleaning_pipeline/data_cleaning_pipeline.py`](./02_data_cleaning_pipeline/data_cleaning_pipeline.py)
 
 Production-grade data cleaning framework with chainable operations, configurable strategies, and built-in quality reporting.
 
@@ -154,7 +154,7 @@ Step: Format Standardization
 
 ## 03 — Customer Churn Analysis & Predictive Modeling
 
-📂 [`03_customer_churn_ml/churn_analysis.py`](./03_customer_churn_ml/churn_analysis.py)
+[`03_customer_churn_ml/churn_analysis.py`](./03_customer_churn_ml/churn_analysis.py)
 
 End-to-end ML pipeline for telecom customer churn prediction on a 50K-record dataset.
 
@@ -185,7 +185,7 @@ Data Generation → EDA & Statistical Profiling → Feature Engineering → Mode
   Random Forest             | Accuracy: 0.856 | F1: 0.791 | AUC: 0.912
   XGBoost                   | Accuracy: 0.871 | F1: 0.813 | AUC: 0.923
 
-  🏆 Best model: XGBoost (AUC: 0.923)
+  Best model: XGBoost (AUC: 0.923)
 ══════════════════════════════════════════════════════════════
 ```
 
@@ -209,7 +209,7 @@ Data Generation → EDA & Statistical Profiling → Feature Engineering → Mode
 
 ## 04 — Time Series Forecasting — Demand & Capacity Analysis
 
-📂 [`04_time_series_forecasting/capacity_forecasting.py`](./04_time_series_forecasting/capacity_forecasting.py)
+[`04_time_series_forecasting/capacity_forecasting.py`](./04_time_series_forecasting/capacity_forecasting.py)
 
 Analytical forecasting pipeline for infrastructure capacity planning using 3 years of simulated operational data (1,095 daily observations).
 
@@ -251,7 +251,7 @@ Analytical forecasting pipeline for infrastructure capacity planning using 3 yea
 
 ## 05 — SQL Analytics Toolkit
 
-📂 [`05_sql_analytics/analytical_queries.sql`](./05_sql_analytics/analytical_queries.sql)
+[`05_sql_analytics/analytical_queries.sql`](./05_sql_analytics/analytical_queries.sql)
 
 Production analytical SQL queries for operational KPI reporting, SLA tracking, and ad-hoc investigation. Compatible with PostgreSQL, Amazon Redshift, and Snowflake.
 
@@ -298,7 +298,7 @@ SELECT * FROM rolling_metrics ORDER BY report_date DESC;
 
 ## 06 — AWS Serverless Data Pipeline
 
-📂 [`06_aws_data_pipeline/aws_etl_pipeline.py`](./06_aws_data_pipeline/aws_etl_pipeline.py)
+[`06_aws_data_pipeline/aws_etl_pipeline.py`](./06_aws_data_pipeline/aws_etl_pipeline.py)
 
 Production-ready data pipeline on AWS for analytical data processing, quality monitoring, and Redshift loading.
 
