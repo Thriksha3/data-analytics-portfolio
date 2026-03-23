@@ -363,7 +363,7 @@ python aws_etl_pipeline.py
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ```bash
 # Clone the repository
